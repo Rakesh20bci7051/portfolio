@@ -1,0 +1,53 @@
+/* header.css */
+
+header {
+  background-color: #d447ff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for a smooth effect */
+}
+
+header:hover {
+  background-color: #2180a0; /* Darker background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+#buttonid {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start; /* Updated to flex-start for left alignment */
+}
+
+#buttonid p {
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Add transition for a smooth effect */
+}
+
+#buttonid p:hover {
+  background-color: #2180a0; /* Darker button color on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.2) translate(5%, 5%); /* Scale and move effect on hover */
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  transition: transform 0.3s; /* Add transition for a smooth effect */
+}
+
+h1:hover {
+  transform: scale(1.2) translate(5%, 5%); /* Scale and move effect on hover */
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+  transition: transform 0.3s; /* Add transition for a smooth effect */
+}
+
+p:hover {
+  transform: scale(1.2) translate(5%, 5%); /* Scale and move effect on hover */
+}

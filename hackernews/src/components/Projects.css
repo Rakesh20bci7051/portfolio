@@ -1,0 +1,63 @@
+/* Projects.css */
+
+#projects {
+  text-align: center;
+}
+
+.projects-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+margin-bottom:0px;
+}
+
+.projects-section:hover {
+  background-color: #0000db;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.projects-section h3 {
+  font-size: 20px;
+  margin-bottom:0px;
+}
+
+.projects-section p {
+  font-style: italic;
+  margin: 0% 10% 5% 10%;
+}
+
+.projects-section a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects-section a:hover {
+  text-decoration: underline;
+}
+
+.projects-section iframe {
+  width: 50%;
+  height: 315px;
+}
+
+.projects-section ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center the list items */
+}
+
+.projects-section li {
+  display: inline-block;
+  margin: 0 20px; /* Adjust margin between list items */
+  vertical-align: top; /* Align items vertically */
+}
+
+.projects-section li a img {
+  margin-right: 10px;
+  border-radius: 50%;
+}

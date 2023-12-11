@@ -1,0 +1,35 @@
+/* Contact.css */
+
+.contact-section {
+  background-color: #fff000;
+  padding: 50px;
+height:0%;
+width:100%;
+  margin: 0% 0% 0% 0%; /* Top, Right, Bottom, Left */
+}
+
+h2 {
+  color: #333fff;
+}
+
+.contact-section p {
+  color: #666;
+margin-bottom:20px;
+}
+
+.contact-section a {
+  text-decoration: none;
+  margin:20px; /* Adjust this value to control the space between logos */
+margin-bottom:0px;
+}
+
+.contact-section img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Style for links */
+a:hover {
+  opacity: 2.8;
+}
